@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae8c4118-997f-40be-9b6c-08ef18b1c2f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ElfCalorieCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ae8c4118-997f-40be-9b6c-08ef18b1c2f1" name="Changes" comment="Day 1">
+      <change afterPath="$PROJECT_DIR$/src/day2/RockPaperScissor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalorieCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aoc1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/aoc1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aoc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aoc/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aoc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aoc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aoc/CalorieCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aoc/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aoc/aoc1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElfCalorieCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/ElfCalorieCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/aoc1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/data.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ncortese/Documents/AOC2022/aoc/src/day2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,11 +60,16 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/day2" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/day1" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ElfCalorieCounter">
+  <component name="RunManager" selected="Application.RockPaperScissor">
     <configuration name="CalorieCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalorieCounter" />
       <module name="aoc" />
@@ -88,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RockPaperScissor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.day2.RockPaperScissor" />
+      <module name="aoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="aoc" />
@@ -97,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RockPaperScissor" />
         <item itemvalue="Application.ElfCalorieCounter" />
         <item itemvalue="Application.CalorieCounter" />
         <item itemvalue="Application.Test" />
@@ -112,7 +128,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669897428957</updated>
       <workItem from="1669897430944" duration="9298000" />
-      <workItem from="1669970689805" duration="2674000" />
+      <workItem from="1669970689805" duration="5473000" />
+      <workItem from="1669996595203" duration="774000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1">
       <created>1669913057493</created>

@@ -1,4 +1,4 @@
-package src;
+package src.day1;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -12,7 +12,7 @@ public class ElfCalorieCounter {
     }
 
     public static void run(){
-        String filename = "src/data.txt";
+        String filename = "src/day1/data.txt";
         BufferedReader reader = null;
         String line = "";
         List<String> stringsOfCalories = new ArrayList<>();
