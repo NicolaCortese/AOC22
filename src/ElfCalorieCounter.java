@@ -1,12 +1,18 @@
+package src;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
-public class CalorieCounter {
+public class ElfCalorieCounter {
+
+
     public static void main(String[] arguments){
-        String filename = "aoc1.txt";
+        run();
+    }
+
+    public static void run(){
+        String filename = "src/data.txt";
         BufferedReader reader = null;
         String line = "";
         List<String> stringsOfCalories = new ArrayList<>();
@@ -18,22 +24,31 @@ public class CalorieCounter {
                 stringsOfCalories.add(line);
             }
 
+            Integer calorieCounter = 0;
             for(String s:stringsOfCalories){
-                Integer calorieCounter = 0;
-                if(s==""){
+                if(s.isBlank()){
                     elves.add(calorieCounter);
                     calorieCounter = 0;
                 } else{
                     Integer calories = Integer.valueOf(s);
-                calorieCounter += calories;
+                    calorieCounter += calories;
                 }
             }
             System.out.println(elves);
+            Collections.sort(elves);
+            Collections.reverse(elves);
+            System.out.println(elves);
+            Integer loadedElf = elves.get(0);
+            System.out.println("First Answer: " + loadedElf);
+            Integer loadedElves = loadedElf + elves.get(1) + elves.get(2);
+            System.out.println("Second Answer: " + loadedElves);
 
         }catch(Exception e){
             e.printStackTrace();
         }
+
     }
+
 
 
 }
