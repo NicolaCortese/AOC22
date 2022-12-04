@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae8c4118-997f-40be-9b6c-08ef18b1c2f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day4/SectionChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day4/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day4/SectionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day4/SectionChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -167,7 +166,7 @@
       <workItem from="1669970689805" duration="5473000" />
       <workItem from="1669996595203" duration="3745000" />
       <workItem from="1670072184267" duration="6699000" />
-      <workItem from="1670157761458" duration="823000" />
+      <workItem from="1670157761458" duration="3192000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1">
       <created>1669913057493</created>

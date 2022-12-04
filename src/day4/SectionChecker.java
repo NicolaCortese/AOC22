@@ -30,15 +30,10 @@ public class SectionChecker {
                 Integer firstElfSecondAssignments = Integer.parseInt(firstElf.split("-")[1]);
                 Integer secondElfFirstAssignments = Integer.parseInt(secondElf.split("-")[0]);
                 Integer secondElfSecondAssignments = Integer.parseInt(secondElf.split("-")[1]);
-                System.out.println(secondElfSecondAssignments);
-                if (firstElfFirstAssignments >= secondElfFirstAssignments && firstElfSecondAssignments <= secondElfSecondAssignments){
-                    counter += 1;
-                } else if (firstElfFirstAssignments <= secondElfFirstAssignments && firstElfSecondAssignments >= secondElfSecondAssignments){
+                if (!(firstElfSecondAssignments<secondElfFirstAssignments || firstElfFirstAssignments>secondElfSecondAssignments)) {
                     counter += 1;
                 }
-
                 elfAssignments.clear();
-
             }
             System.out.println(counter);
 
