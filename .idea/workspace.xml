@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae8c4118-997f-40be-9b6c-08ef18b1c2f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/day5/Crane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5/CranePartTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5/stacks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day6/SignalDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day6/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day4/SectionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day4/SectionChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aoc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aoc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aoc/src/day4/SectionChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aoc/src/day4/SectionChecker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ncortese/Documents/AOC2022/aoc/src/day4",
+    "last_opened_file_path": "/Users/ncortese/Documents/AOC2022/aoc/src/day6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,21 +64,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/day6" />
+      <recent name="$PROJECT_DIR$/src/day5" />
       <recent name="$PROJECT_DIR$/src/day4" />
       <recent name="$PROJECT_DIR$/src/day3" />
       <recent name="$PROJECT_DIR$/src/day2" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/day1" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.day6" />
+      <recent name="src.day5" />
       <recent name="src.day4" />
       <recent name="src.day3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SectionChecker">
+  <component name="RunManager" selected="Application.CranePartTwo">
     <configuration name="BadgeEvaluator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.day3.BadgeEvaluator" />
       <module name="aoc" />
@@ -85,19 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalorieCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalorieCounter" />
+    <configuration name="Crane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.day5.Crane" />
       <module name="aoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElfCalorieCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.ElfCalorieCounter" />
+    <configuration name="CranePartTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.day5.CranePartTwo" />
       <module name="aoc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.*" />
+          <option name="PATTERN" value="src.day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CranePartTwo" />
+        <item itemvalue="Application.Crane" />
         <item itemvalue="Application.SectionChecker" />
         <item itemvalue="Application.BadgeEvaluator" />
         <item itemvalue="Application.RucksackEvaluator" />
-        <item itemvalue="Application.ElfCalorieCounter" />
-        <item itemvalue="Application.CalorieCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +182,8 @@
       <workItem from="1669970689805" duration="5473000" />
       <workItem from="1669996595203" duration="3745000" />
       <workItem from="1670072184267" duration="6699000" />
-      <workItem from="1670157761458" duration="3192000" />
+      <workItem from="1670157761458" duration="3865000" />
+      <workItem from="1670231071581" duration="7441000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1">
       <created>1669913057493</created>
@@ -192,5 +209,15 @@
     <MESSAGE value="Day 1" />
     <MESSAGE value="Day 2 Completed :)" />
     <option name="LAST_COMMIT_MESSAGE" value="Day 2 Completed :)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.util.EmptyStackException" package="java.util" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
